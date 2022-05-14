@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Your Details</legend>
+        <label> Name:<br />
+            <input type="text" name="Name" /></label> <br />
+        <label> Email:<br />
+        <input type="email" name="Email" /></label> <br />
+    </fieldset>
+    <fieldset>
+        <legend>Your Review</legend>
+        <p>
+            How did you hear about us?
+        </p>
+        <select name="Answer" size="3" multiple="multiple">
+        <option value="Google" selected=""> Google</option>
+        <option value="Friend" selected=""> Friend</option>
+        <option value="Other" selected=""> Other</option>
+        </select>
+        <p>
+            Would you like to visit us again?
+        </p>
+        <input type="radio" name="answer" value="Yes"> Yes
+        <input type="radio" name="answer" value="No"> No
+        <input type="radio" name="answer" value="Maybe"> Maybe
+        <br />
+        <B>Comments</B> <br />
+<textarea rows="5" cols="50" name="Comments">
+Give Your Valueable Comments.
+</textarea>
+        <br /><input type="checkbox" name="Subscription" value="on"> Sign me up for updates.
+        <br />
+        <input type="submit" value="submit" />
+    </fieldset>
+</body>
+</html>
